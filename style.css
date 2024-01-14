@@ -15,6 +15,7 @@ nav{
     gap: 0px;
     align-items: center;
 }
+
 .banner_container{
    max-width: 800px;
    margin: 0 auto;
@@ -115,4 +116,71 @@ nav li a{
     .banner_button{
         margin-left: 180px;
     }
+}
+/* main section style */
+main{
+    max-width: 1440px;
+    /* margin: 0 auto; */
+    margin-left:200px ;
+    margin-right: 200px;
+    margin-top: 50px;
+    }
+.teams_container{
+    display: flex;
+    gap: 70px;
+}
+.teams_content{
+   margin-top: 150px;
+}
+.teams_description{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-top: 15px;
+}
+.teams_button{
+    width: 180px;
+height: 64px;
+border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+border: 0
+;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+margin-top: 20px;
+}
+#team1{
+    color: var(--Dark-03, #727272);
+
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+}
+#team2{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+#team3{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+.teams_img_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap: 10px;
 }
